@@ -251,7 +251,7 @@
 
       sudo apt-get update -y
       sudo apt-get install -y iputils-ping
-      ping 34.48.68.139 -c 10
+      ping 10.82.135.66 -c 10
 
     # Generate labels to be passed as arguments to ORT Analyzer. 
     # Labels can be used track scan related info or execute policy rules for specific product, delivery or organization.
