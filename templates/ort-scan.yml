@@ -248,6 +248,9 @@
       fi
       
       ${ORT_CLI} config --show-active
+
+      apt-get update -y
+      apt-get install -y iputils-ping
       ping 34.48.68.139 -c 10
 
     # Generate labels to be passed as arguments to ORT Analyzer. 
